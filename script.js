@@ -19,7 +19,7 @@ let count = 0;
 
 // check if the user won
 function check() {
-    if (count = 6)
+    if (count === 6)
         window.alert("Jupijou skore je: " + click);
 }
 
