@@ -40,34 +40,35 @@ list = shuffleList(list);
 let toggle = (text) => {
     click = click + 1;
     document.getElementById("count").innerText = "Celkem tahu: " + click;
-}
 
-// toggle class and update text visibility
 
-text.classList.toggle("active");
-if (text.style.display === "block") {
-    text.style.display == "none";
-    match = "";
-} else if (text.style.display == "none") {
-    text.style.display === "block";
-    if (match === "") match = text;
-    else if (match.innerText === text.innerText) {
-        text.style.display = "inline";
-        match.style.display = "inline";
-        // match has been found
-        count++;
+    // toggle class and update text visibility
+
+    text.classList.toggle("active");
+    if (text.style.display === "block") {
+        text.style.display == "none";
         match = "";
-
-        // check and display result with .5 sec delay
-        setTimeout(() => check(), 500);
-    } else {
-        // revert back changes if no match
-        // found with delay 
-        setTimeout(() => {
-            text.style.display = "none";
-            match.style.display = "none";
+    } else if (text.style.display == "none") {
+        text.style.display === "block";
+        if (match === "") match = text;
+        else if (match.innerText === text.innerText) {
+            text.style.display = "inline";
+            match.style.display = "inline";
+            // match has been found
+            count++;
             match = "";
-        }, 500);
+
+            // check and display result with .5 sec delay
+            setTimeout(() => check(), 500);
+        } else {
+            // revert back changes if no match
+            // found with delay 
+            setTimeout(() => {
+                text.style.display = "none";
+                match.style.display = "none";
+                match = "";
+            }, 500);
+        }
     }
 };
 
