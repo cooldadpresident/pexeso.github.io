@@ -46,7 +46,7 @@ h1 {
     font-size: larger;
     margin: 2%;
     padding: 4%;
-    box-shadow: 0 0 5px rgba(red, green, blue, alpha);
+    box-shadow: 0 0 5px rgba(red, green, rgb(255, 0, 191), alpha);
     width: 28%;
     background: rgb(2, 0, 37);
     background: linear-gradient(120deg, rgb(0, 37, 61) 0%,
