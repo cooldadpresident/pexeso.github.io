@@ -40,7 +40,7 @@ let toggle = (text) => {
   click = click + 1;
   document.getElementById("count").innerText = "Celkem tahu: " + click;
 
-  // toggle class and update text visibility
+  // toggle class and update text visibility   
 
   text.classList.toggle("active");
   if (text.style.display === "block") {
