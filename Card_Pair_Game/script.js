@@ -20,7 +20,7 @@ let click = 0;
 let count = 0; 
 function check() { 
 	if (count === 6) 
-		window.alert("You win! your score is :" + click);
+		window.alert("You win! your score is :" + click); 
 } 
 
 // To shuffle the list 
