@@ -40,7 +40,7 @@ list = shuffleList(list);
 let toggle = (text) => { 
 	click = click + 1; 
 	document.getElementById("count").innerText = 
-		"Total Moves: " + click; 
+		"Celkem Zmáčknutí Pepi: " + click; 
 		
 	// Toogle class and update text visibility 
 	text.classList.toggle("active"); 
