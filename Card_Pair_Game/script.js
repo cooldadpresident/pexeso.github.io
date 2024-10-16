@@ -1,18 +1,18 @@
 // script.js 
 
 let list = [ 
-	"HTML", 
-	"HTML", 
-	"CSS", 
-	"CSS", 
-	"JavaScript", 
-	"JavaScript", 
-	"React", 
-	"React", 
-	"Geeks", 
-	"Geeks", 
-	"Bootstrap", 
-	"Bootstrap", 
+	"Bobíček", 
+	"Bobíček", 
+	"Josefínka", 
+	"Josefínka", 
+	"Olinka", 
+	"Olinka", 
+	"Kakáč", 
+	"Kakáč", 
+	"Emilek", 
+	"Emilek", 
+	"ROKAPUL", 
+	"ROKAPUL", 
 ]; 
 
 let match = ""; 
@@ -20,7 +20,7 @@ let click = 0;
 let count = 0; 
 function check() { 
 	if (count === 6) 
-		window.alert("You win! your score is :" + click); 
+		window.alert("No ANOOOOOO" + click); 
 } 
 
 // To shuffle the list 
