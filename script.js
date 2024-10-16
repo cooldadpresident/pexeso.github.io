@@ -20,7 +20,7 @@ let click = 0;
 let count = 0; 
 function check() { 
 	if (count === 6) 
-		window.alert("No ANOOOOOO" + click); 
+		window.alert("No ANOOOOOO, podívej se pod polštářek! stačilo tolik kliknutí :" + click); 
 } 
 
 // To shuffle the list 
